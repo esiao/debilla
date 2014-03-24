@@ -515,6 +515,28 @@ body > header .modules {
 width: 1024px;
 overflow: hidden;
 margin: 0 auto;
+background: url(img/lol.png) no-repeat 30px 8px;
+}
+body > header .modules > a
+{
+  float: right;
+  display: block;
+  height: 2.8em;
+  line-height: 2.8em;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: #1f1f1f;
+  margin-right: 2.2em;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+body > header .modules > a:hover
+{
+  color: #525252;
 }
 body > header .block {
   float: right;

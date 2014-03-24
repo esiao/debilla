@@ -83,10 +83,8 @@
         <header>
             <div class="modules">
                 {$HOOK_TOP}
+                <a href="#extrait">extrait</a>
             </div>
-            <ul class="wrapper">
-                <li><a href="#extrait">extrait</a></li>
-            </ul>
         </header>
 
         {* Center content - Uses other template files. *}
