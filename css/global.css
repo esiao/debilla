@@ -473,6 +473,7 @@ blockquote p {
 }
 html {
   font-size: 62.5%;
+  min-height: 100%;
 }
 body {
   margin: 0 auto;
@@ -487,6 +488,7 @@ body {
   background: url(img/noise.png), -ms-linear-gradient(top, rgba(243,70,70,1) 0%, rgba(82,9,73,1) 100%);
   background: url(img/noise.png), linear-gradient(to bottom, rgba(243,70,70,1) 0%, rgba(82,9,73,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f34646', endColorstr='#520949', GradientType=0 );
+  min-height: 100vh;
 }
 body:before,
 body:after {
@@ -502,6 +504,7 @@ body > header {
   height: 80px;
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 body > header:before,
 body > header:after {
@@ -515,7 +518,6 @@ body > header .modules {
   width: 1024px;
   overflow: hidden;
   margin: 0 auto;
-  background: url(img/lol.png) no-repeat 30px 8px;
   margin-top: 1.6em;
 }
 body > header .modules > a
@@ -543,6 +545,23 @@ body > header .block {
   float: right;
   margin-left: 10px;
 }
+body > header .modules > a.logo
+{
+  float: left;
+  margin: 8px 30px;
+  display: block;
+  height: 32px;
+  opacity: 1;
+  -webkit-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  -o-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+body > header .modules > a.logo:hover
+{
+  opacity: .5;
+}
 #logo {
   display: inline;
   float: left;
@@ -564,6 +583,93 @@ body > header .block {
   display: block;
   margin: 0 auto;
   float: none;
+}
+#center_column #contentboxdiscover
+{
+  height: 100vh;
+  margin-top: -50px;
+}
+#center_column #contentboxdiscover h3
+{
+  text-align: center;
+  background: url(img/XXX.png) no-repeat center;
+  height: 3.8em;
+  line-height: 1.3;
+  color: white;
+  font-size: 1.7em;
+  width: 300px; 
+  margin: 80px auto;
+  padding-top: 10px;
+}
+#center_column #contentboxdiscover h1
+{
+ display: none;
+}
+#center_column #contentboxdiscover ul
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#center_column #contentboxdiscover ul li
+{
+  width: 300px;
+  height: 300px;
+  background: black;
+  position: relative;
+  box-shadow: 0px 0px 6px rgba(0,0,0,.75);
+  overflow: hidden;
+  display: inline-block;
+  margin: 1.45em;
+}
+#center_column #contentboxdiscover ul li:hover
+{
+  cursor: pointer;
+}
+#center_column #contentboxdiscover ul li:hover img
+{
+  opacity: 1;
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  transform: scale(1.01);
+}
+#center_column #contentboxdiscover ul li:hover h2
+{
+  bottom: -100px;
+}
+#center_column #contentboxdiscover ul li img
+{
+  opacity: .4;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+#center_column #contentboxdiscover ul li h2
+{
+  text-align: center;
+  background: url(img/XXX.png) no-repeat center;
+  height: 3.8em;
+  line-height: 4em;
+  color: white;
+  font-size: 1.5em;
+  margin: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 260px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 #center_column .block {
   margin-bottom: 40px;

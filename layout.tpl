@@ -82,6 +82,9 @@
         {* Header *}
         <header>
             <div class="modules">
+                <a href="{$base_dir}" class="logo">
+                    <img src="{$css_dir}/img/logo.png" alt="Nabilla logo">
+                </a>
                 {$HOOK_TOP}
                 <a href="#extrait">extrait</a>
             </div>
