@@ -600,6 +600,7 @@ body > header .modules > a.logo:hover
   width: 300px; 
   margin: 80px auto;
   padding-top: 10px;
+  text-transform: uppercase;
 }
 #center_column #contentboxdiscover h1
 {
@@ -670,6 +671,7 @@ body > header .modules > a.logo:hover
   -ms-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  text-transform: uppercase;
 }
 #center_column .block {
   margin-bottom: 40px;
