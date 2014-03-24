@@ -33,6 +33,7 @@
 
         {* Favicon displayed in address bar, tabs and bookmarks. (http://bit.ly/P4F7xg) *}
         <link rel="icon" href="{$favicon_url}?{$img_update_time}">
+        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
 
         {* Include all CSS files from page controller's SetMedia() *}
         {if isset($css_files)}
@@ -80,7 +81,7 @@
             <div class="modules">
                 {$HOOK_TOP}
             </div>
-            <ul>
+            <ul class="wrapper">
                 <li><a href="#extrait">extrait</a></li>
                 <li><a href="#" class="order">commander</a></li>
             </ul>
@@ -108,6 +109,7 @@
             <div class="modules">
                 {$HOOK_FOOTER}
             </div>
+            <p>Nabilla Benattia - Non, mais allô quoi ! - Tallac Records -  Copyright © 2014.</p>
         </footer>
     </body>
 </html>
