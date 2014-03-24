@@ -33,7 +33,10 @@
 
         {* Favicon displayed in address bar, tabs and bookmarks. (http://bit.ly/P4F7xg) *}
         <link rel="icon" href="{$favicon_url}?{$img_update_time}">
+
+        {* Google Fonts *}
         <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
 
         {* Include all CSS files from page controller's SetMedia() *}
         {if isset($css_files)}
