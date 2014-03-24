@@ -77,18 +77,10 @@
 
         {* Header *}
         <header>
-            <a id="logo" href="{$base_dir}" title="{$shop_name|escape:'htmlall':'UTF-8'}">
-                <img class="logo" src="{$logo_url}" alt="{$shop_name|escape:'htmlall':'UTF-8'}" {if $logo_image_width}width="{$logo_image_width}"{/if} {if $logo_image_height}height="{$logo_image_height}" {/if} />
-            </a>
             <div class="modules">
                 {$HOOK_TOP}
             </div>
         </header>
-
-        {* Left sidebar *}
-        <aside id="left_column" class="sidebar">
-            {$HOOK_LEFT_COLUMN}
-        </aside>
 
         {* Center content - Uses other template files. *}
         <div id="center_column">
@@ -96,6 +88,11 @@
                 {$template}
             {/if}
         </div>
+
+        {* Left sidebar *}
+        <aside id="left_column" class="sidebar">
+            {$HOOK_LEFT_COLUMN}
+        </aside>
 
         {* Right sidebar *}
         <aside id="right_column" class="sidebar">
