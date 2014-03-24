@@ -1,0 +1,37 @@
+// =|= Imported Styles / Frameworks etc ======================================
+@import "../../includes/mixins.less";
+
+// =|= Block Specials styles =================================================
+.blockspecials {
+	position: relative;
+	.clearfix;
+
+	// -|- Product Image ---------------------------------------------
+	img {
+		float: left;
+		max-width: 50%;
+	}
+
+	// -|- Product Title ---------------------------------------------
+	h2 {
+		margin: 1.5em 0;
+	}
+
+	// -|- Prices ----------------------------------------------------
+	span {
+		display: block;
+
+		&.price {
+			.font-size(14);
+		}
+		&.label {
+			top: 55%
+		}
+	}
+
+	h2,
+	span.price,
+	span.price-discount {
+		padding-left: 55%;
+	}
+}

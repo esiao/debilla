@@ -1,0 +1,46 @@
+// =|= Imported Styles / Frameworks etc ======================================
+@import "../../includes/mixins.less";
+
+// =|= Block Currencies styles ===============================================
+.blockcurrencies {
+	cursor:pointer;
+	color: @grey;
+	font-weight: bold;
+	.font-size(12);
+	position: relative;
+	bottom: 20px;
+
+	&:hover ul {display: block;}
+
+	span {
+		background: url('../../../img/arrow-dropdown.png')  @heading 15px 24px no-repeat;
+		height: 40px;
+		line-height: 60px;
+	}
+	ul a {
+		height: 20px;
+		line-height: 20px;
+	}
+	ul a,
+	span {
+		width: 30px;
+		padding-left: 5px;
+		display: block;
+	}
+
+	// -|- Currency List ---------------------------------------------
+	ul {
+		.no-bullets;
+		display: none;
+		position: absolute;
+		z-index: 100;
+
+		a {
+			color: @grey;
+			text-decoration: none;
+			background: @heading;
+
+			&:hover {color: #fff;}
+		}
+	}
+}

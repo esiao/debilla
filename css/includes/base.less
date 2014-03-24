@@ -1,0 +1,144 @@
+// =|= Import Fonts ============================================================
+// eg @import "http://fonts.googleapis.com/css?family=Open+Sans:300,400";
+
+
+// =|= Block elements ==========================================================
+p, ul, ol, pre code, blockquote {
+  margin: 1em 0 1.5em 0;
+}
+
+
+// =|= Headings ================================================================
+h1, h2, h3, h4, h5, h6 {
+    font: normal 300 1rem/1.4em @header;
+    margin: 10px 0;
+    text-rendering: optimizelegibility;
+    color: @heading;
+
+  a, a:visited {
+    text-decoration: none;
+    border: none;
+    color: @heading;
+  }
+    a:hover {color: @link;}
+}
+
+h1 {
+  .font-size(28);
+  border-bottom: 1px solid #999;
+  padding-bottom: 0.2em;
+  margin-top: 0;
+}
+h2 {.font-size(24);}
+h3 {.font-size(20);}
+h4 {.font-size(18);}
+h5 {.font-size(16);}
+h6 {.font-size(14);}
+
+
+// =|= Body ====================================================================
+a {
+  color: @heading;
+  transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+
+  &:hover {color: @link;}
+}
+
+p,ul,ol {
+  .font-size(13);
+  line-height: 1.4em;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+blockquote {
+  border-left: 3px solid #EEE;
+  margin-left: 2em;
+  padding-left: 2em;
+
+  p {
+    font-style: italic;
+    font-family: @serif;
+    font-size: 1.5em;
+  }
+}
+
+.hidden,
+.collapsed {display: none; visibility: hidden;}
+.expanded {display: block; visibility: visible;}
+
+
+
+// =|= Objects =================================================================
+// -|- Prices ------------------------------------------------------------------
+.price {
+  font-weight: bold;
+  color: #900;
+}
+.price-discount {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+// -|- Labels ------------------------------------------------------------------
+.label {
+    .font-size(11);
+    color: #fff;
+    .gradient(@secondary, darken(@secondary,5%), lighten(@secondary,5%));
+    border: 1px solid darken(@secondary,15%);
+    display: inline;
+    padding: 3px 5px;
+    .rounded(5px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
+// -|- Buttons -----------------------------------------------------------------
+// -|- Standard button
+.btn {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  *display: inline;
+  .rounded(4px);
+  padding: 6px 12px;
+  .font-size(12);
+  text-shadow: 0 1px 1px darken(@secondary,20%);
+  .gradient(@secondary, darken(@secondary,5%), lighten(@secondary,5%));
+  border: 1px solid darken(@secondary,15%);
+
+  &:hover {
+    color: #fff;
+    .gradient(@secondary, @secondary, lighten(@secondary,12%));
+  }
+  &:active {
+    .gradient(@secondary, @secondary, darken(@secondary,12%));
+  }
+}
+
+// -|- 'Exclusive' button
+.btn.exclusive {
+  text-shadow: 0 1px 1px darken(@primary,20%);
+  .gradient(@primary, darken(@primary,5%), lighten(@primary,5%));
+  border: 1px solid darken(@primary,15%);
+
+  &:hover {
+    .gradient(@primary, @primary, lighten(@primary,12%));
+  }
+  &:active {
+    .gradient(@primary, @primary, darken(@primary,12%));
+  }
+}

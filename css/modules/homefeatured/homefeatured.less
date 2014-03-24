@@ -1,0 +1,32 @@
+// =|= Imported Styles / Frameworks etc ======================================
+@import "../../includes/mixins.less";
+
+// =|= Block Home Featured styles ============================================
+.homefeatured{
+	.clearfix;
+
+	ul {
+		.no-bullets;
+		li {
+			float: left;
+			width: 25%;
+			padding: 0 2%;
+			position: relative;
+		}
+	}
+
+	img {
+		margin: 0 auto;
+		display: block;
+		max-width: 100%;
+	}
+	p {
+		height: 5.6em; // 4x1.4em (4 lines)
+		overflow: hidden;
+	}
+	.price {
+		display: block;
+		padding-bottom: 1em;
+	}
+	.label {margin-left: 20px;}
+}

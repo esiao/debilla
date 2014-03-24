@@ -1,0 +1,37 @@
+// =|= Imported Styles / Frameworks etc ======================================
+@import "../../includes/mixins.less";
+
+// =|= Block User Info styles ================================================
+.blockuserinfo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+
+	p {
+		margin: 0;
+	}
+}
+// =|= Block User Info Cart ==================================================
+
+.blockuserinfo-cart{
+	position: absolute;
+	top: 30px;
+	right: 0;
+	.font-size(13);
+	width: 185px;
+	background: @lightgrey;
+	color: @darkgrey;
+	z-index: 50;
+
+	.price {
+		font-weight: bold;
+		color: @heading;
+		float: right;
+	}
+}
+.blockuserinfo-cart a {
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
