@@ -86,7 +86,6 @@
             </div>
             <ul class="wrapper">
                 <li><a href="#extrait">extrait</a></li>
-                <li><a href="#" class="order">commander</a></li>
             </ul>
         </header>
 

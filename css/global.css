@@ -512,12 +512,9 @@ body > header:after {
   clear: both;
 }
 body > header .modules {
-  position: relative;
-  display: inline;
-  float: left;
-  width: 780px;
-  margin: 0 15px;
-  margin-top: 10px;
+width: 1024px;
+overflow: hidden;
+margin: 0 auto;
 }
 body > header .block {
   float: right;

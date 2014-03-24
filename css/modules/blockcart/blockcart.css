@@ -1,0 +1,27 @@
+section#cart_block h1
+{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.8em;
+  padding-right: 3em;
+  background: url(img/cart.png) center right no-repeat;
+  margin-right: 1.7em;
+  border: none;
+  opacity: 1;
+  -webkit-transition: opacity .2s ease;
+  -moz-transition: opacity .2s ease;
+  -ms-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+section#cart_block h1:hover
+{
+  opacity: .8;
+}
+section#cart_block h1 a
+{
+  color: white;
+  background: #e44046;
+  padding: .6em 1.7em;
+  border-radius: .7em;
+  display: block;
+}
