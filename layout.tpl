@@ -80,6 +80,10 @@
             <div class="modules">
                 {$HOOK_TOP}
             </div>
+            <ul>
+                <li><a href="#extrait">extrait</a></li>
+                <li><a href="#" class="order">commander</a></li>
+            </ul>
         </header>
 
         {* Center content - Uses other template files. *}

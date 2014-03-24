@@ -535,6 +535,7 @@ body > header .block {
   width: auto;
   display: block;
   margin: 0 auto;
+  float: none;
 }
 #center_column .block {
   margin-bottom: 40px;
