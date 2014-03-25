@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>contentboxaudio</name>
+            <displayName><![CDATA[contentBox-Audio]]></displayName>
+            <version><![CDATA[0.03]]></version>
+            <description><![CDATA[Bloc avec le contenu audio]]></description>
+            <author><![CDATA[EmotionLoop.com]]></author>
+            <tab><![CDATA[front_office_features]]></tab>
+            <is_configurable>1</is_configurable>
+            <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+        </module>

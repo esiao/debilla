@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<html>
+
+		<content_1>&lt;div id=&quot;player&quot; class=&quot;jp-jplayer&quot;&gt; &lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost/prestashop/modules/contentboxaudio/imgs/cover.png&quot; alt=&quot;Trop swag la pochette&quot; /&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span&gt;Achetez le dès maintenant !&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;button class=&quot;add_to_cart&quot;&gt;Acheter&lt;/button&gt;&lt;/p&gt;</content_1>
+		<tab>AdminModules</tab>
+</html>

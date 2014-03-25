@@ -16,6 +16,7 @@ section#cart_block h1
 section#cart_block h1:hover
 {
   opacity: .8;
+  cursor: pointer;
 }
 section#cart_block h1 a
 {

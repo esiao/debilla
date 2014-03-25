@@ -2,23 +2,30 @@
 <html>
 
 		<content_1>&lt;h1&gt;Découvrez Nabilla&lt;/h1&gt;
+&lt;div id=&quot;full&quot;&gt; &lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#naturelle&quot;&gt; &lt;img src=&quot;http://localhost/prestashop/modules/contentboxdecouvrir/imgs/discover-naturelle.png&quot; alt=&quot;Découvrez Nabilla la naturelle&quot; /&gt;&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#naturelle&quot;&gt; &lt;img src=&quot;modules/contentboxdecouvrir/imgs/discover-naturelle.png&quot; alt=&quot;Découvrez Nabilla la naturelle&quot; data-full=&quot;modules/contentboxdecouvrir/imgs/naturelle.jpg&quot; /&gt;&lt;/a&gt;
 &lt;h2&gt;Naturelle&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, repellat molestiae alias qui quam nisi ipsam. Officiis, dolorem, explicabo, saepe laudantium incidunt culpa unde voluptatem excepturi fuga velit fugit magnam&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#populaire&quot;&gt; &lt;img src=&quot;http://localhost/prestashop/modules/contentboxdecouvrir/imgs/discover-populaire.png&quot; alt=&quot;Découvrez Nabilla la populaire&quot; /&gt;&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#populaire&quot;&gt; &lt;img src=&quot;modules/contentboxdecouvrir/imgs/discover-populaire.png&quot; alt=&quot;Découvrez Nabilla la populaire&quot; data-full=&quot;modules/contentboxdecouvrir/imgs/populaire.jpg&quot; /&gt;&lt;/a&gt;
 &lt;h2&gt;Populaire&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, repellat molestiae alias qui quam nisi ipsam. Officiis, dolorem, explicabo, saepe laudantium incidunt culpa unde voluptatem excepturi fuga velit fugit magnam&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#ambitieuse&quot;&gt; &lt;img src=&quot;http://localhost/prestashop/modules/contentboxdecouvrir/imgs/discover-ambitieuse.png&quot; alt=&quot;Découvrez Nabilla l'ambitieuse&quot; /&gt;&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#ambitieuse&quot;&gt; &lt;img src=&quot;modules/contentboxdecouvrir/imgs/discover-ambitieuse.png&quot; alt=&quot;Découvrez Nabilla l'ambitieuse&quot; data-full=&quot;modules/contentboxdecouvrir/imgs/ambitieuse.jpg&quot; /&gt;&lt;/a&gt;
 &lt;h2&gt;Ambitieuse&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, repellat molestiae alias qui quam nisi ipsam. Officiis, dolorem, explicabo, saepe laudantium incidunt culpa unde voluptatem excepturi fuga velit fugit magnam&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#talentueuse&quot;&gt; &lt;img src=&quot;http://localhost/prestashop/modules/contentboxdecouvrir/imgs/discover-talentueuse.png&quot; alt=&quot;Découvrez Nabilla la talentueuse&quot; /&gt;&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#talentueuse&quot;&gt; &lt;img src=&quot;modules/contentboxdecouvrir/imgs/discover-talentueuse.png&quot; alt=&quot;Découvrez Nabilla la talentueuse&quot; data-full=&quot;modules/contentboxdecouvrir/imgs/talentueuse.jpg&quot; /&gt;&lt;/a&gt;
 &lt;h2&gt;Talentueuse&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, repellat molestiae alias qui quam nisi ipsam. Officiis, dolorem, explicabo, saepe laudantium incidunt culpa unde voluptatem excepturi fuga velit fugit magnam&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#bio&quot;&gt; &lt;img src=&quot;http://localhost/prestashop/modules/contentboxdecouvrir/imgs/discover-bio.png&quot; alt=&quot;Découvrez Nabilla la bio&quot; /&gt;&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;#bio&quot;&gt; &lt;img src=&quot;modules/contentboxdecouvrir/imgs/discover-bio.png&quot; alt=&quot;Découvrez Nabilla la bio&quot; data-full=&quot;modules/contentboxdecouvrir/imgs/bio.jpg&quot; /&gt;&lt;/a&gt;
 &lt;h2&gt;Biographie&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, repellat molestiae alias qui quam nisi ipsam. Officiis, dolorem, explicabo, saepe laudantium incidunt culpa unde voluptatem excepturi fuga velit fugit magnam&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, repellat molestiae alias qui quam nisi ipsam. Officiis, dolorem, explicabo, saepe laudantium incidunt culpa unde voluptatem excepturi fuga velit fugit magnam&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Son nouveau single disponible quand les poules auront des dents&lt;/h3&gt;</content_1>
+&lt;h3&gt;&lt;span&gt;Son nouveau single disponible quand les poules auront des dents&lt;/span&gt;&lt;/h3&gt;</content_1>
 		<tab>AdminModules</tab>
 </html>
