@@ -47,10 +47,10 @@
 
         {* Required Prestashop JavaScript configuration. *}
         <script type="text/javascript">
-            var baseDir               = '{$content_dir}';
-            var baseUri               = '{$base_uri}';
-            var static_token          = '{$static_token}';
-            var token                 = '{$token}';
+            var baseDir = '{$content_dir|addslashes}';
+            var baseUri = '{$base_uri|addslashes}';
+            var static_token = '{$static_token|addslashes}';
+            var token = '{$token|addslashes}';
             var priceDisplayPrecision = {$priceDisplayPrecision*$currency->decimals};
             var priceDisplayMethod    = {$priceDisplay};
             var roundMode             = {$roundMode};

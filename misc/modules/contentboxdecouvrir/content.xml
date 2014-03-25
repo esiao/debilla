@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<html>
+
+		<content_1>&lt;h1&gt;Découvrez Nabilla&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#naturelle&quot;&gt; &lt;img src=&quot;http://localhost/prestashop/modules/contentboxdecouvrir/imgs/discover-naturelle.png&quot; alt=&quot;Découvrez Nabilla la naturelle&quot; /&gt;&lt;/a&gt;
+&lt;h2&gt;Naturelle&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#populaire&quot;&gt; &lt;img src=&quot;http://localhost/prestashop/modules/contentboxdecouvrir/imgs/discover-populaire.png&quot; alt=&quot;Découvrez Nabilla la populaire&quot; /&gt;&lt;/a&gt;
+&lt;h2&gt;Populaire&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#ambitieuse&quot;&gt; &lt;img src=&quot;http://localhost/prestashop/modules/contentboxdecouvrir/imgs/discover-ambitieuse.png&quot; alt=&quot;Découvrez Nabilla l'ambitieuse&quot; /&gt;&lt;/a&gt;
+&lt;h2&gt;Ambitieuse&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#talentueuse&quot;&gt; &lt;img src=&quot;http://localhost/prestashop/modules/contentboxdecouvrir/imgs/discover-talentueuse.png&quot; alt=&quot;Découvrez Nabilla la talentueuse&quot; /&gt;&lt;/a&gt;
+&lt;h2&gt;Talentueuse&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#bio&quot;&gt; &lt;img src=&quot;http://localhost/prestashop/modules/contentboxdecouvrir/imgs/discover-bio.png&quot; alt=&quot;Découvrez Nabilla la bio&quot; /&gt;&lt;/a&gt;
+&lt;h2&gt;Biographie&lt;/h2&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Son nouveau single disponible quand les poules auront des dents&lt;/h3&gt;</content_1>
+		<tab>AdminModules</tab>
+</html>

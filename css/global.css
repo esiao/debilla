@@ -379,6 +379,10 @@ blockquote p {
   display: none;
   visibility: hidden;
 }
+#block_cart_collapse
+{
+  display: none;
+}
 .expanded {
   display: block;
   visibility: visible;

@@ -254,7 +254,7 @@ $(function(){
 $(function(){
 
 	$('#cart_block h1 a').on('click', function(e) {
-		
+
 		e.preventDefault();
 
 		var quantity		= 1; // Quantité de produits à insérer dans le panier.
@@ -271,6 +271,7 @@ $(function(){
 			data: 'controller=cart&add=1&ajax=true&qty=' + ((quantity && quantity != null) ? quantity : '1') + '&id_product=' + idProduct + '&token=' + static_token + ( (parseInt(idCombination) && idCombination != null) ? '&ipa=' + parseInt(idCombination): ''),
 			success: function(jsonData,textStatus,jqXHR) {
 				// Action à effectuer une fois le produit ajouté.
+				window.location = window.location.href+"?controller=order";
 			},
 			error: function(XMLHttpRequest, textStatus, errorThrown) {}
 		});
