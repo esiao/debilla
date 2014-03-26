@@ -517,6 +517,35 @@ body > header {
   position: fixed;
   top: 0;
   z-index: 999;
+  -webkit-animation: slideDown 1s ease;
+  -o-animation: slideDown 1s ease;
+  animation: slideDown 1s ease;
+}
+@keyframes slideDown {
+  from 
+  {
+    -webkit-transform: translateY(-65px);
+    -ms-transform: translateY(-65px);
+    transform: translateY(-65px);
+  }
+  to
+  {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes slideDown {
+  from 
+  {
+    -webkit-transform: translateY(-65px);
+    transform: translateY(-65px);
+  }
+  to 
+  {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 body > header:before,
 body > header:after {
@@ -604,6 +633,39 @@ body > header .modules > a.logo:hover
   border: 10px solid #e54046;
   font-family: 'Titillium Web';
   font-size: 1.4em;
+  -webkit-animation: slideRight 1s ease;
+  -o-animation: slideRight 1s ease;
+  animation: slideRight 1s ease;
+}
+@keyframes slideRight {
+  from 
+  {
+    -webkit-transform: translateX(-65px);
+    -ms-transform: translateX(-65px);
+    transform: translateX(-65px);
+    opacity: 0;
+  }
+  to
+  {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slideRight {
+  from 
+  {
+    -webkit-transform: translateX(-65px);
+    transform: translateX(-65px);
+    opacity: 0;
+  }
+  to 
+  {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 #order-opc #center_column #cart_quantity_button a {
   display: block;

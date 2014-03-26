@@ -64,7 +64,7 @@ $(function () {
       	});
 
 	//smooth scroll
-	$('header a#contentboxaudio').click(function(e){
+	$('header a').click(function(e){
 		$('html, body').animate({
 		    scrollTop: $( $.attr(this, 'href') ).offset().top
 		}, 500);
