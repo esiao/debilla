@@ -36,7 +36,7 @@
 
         {* Google Fonts *}
         <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700' rel='stylesheet' type='text/css'>
 
         {* Include all CSS files from page controller's SetMedia() *}
         {if isset($css_files)}

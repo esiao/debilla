@@ -13,20 +13,24 @@
 form#new_account_form {}
 #new_account_form  fieldset {
 		padding:0 0 15px 0;
-		border:1px solid #ccc;
-		background:#f8f8f8
 	}
 		#new_account_form  h3 {
-			margin:0 0 15px 0;
-			padding:8px;
-			font-size:14px;
-			color:#fff;
-			text-transform:uppercase;
-			background:url(../img/bg_form_h3.png) repeat-x 0 0 #989898
+			margin: 0 0 15px 0;
+			padding: 1em;
+			color: #fff;
+			background: #e54046;
+			font-family: 'Titillium Web';
+			font-weight: bold;
+			font-size: 1.2em;
 		}
 		#center_column #new_account_form p {margin:0; padding:0 0 10px 0;}
 		#new_account_form p.required {color:#222;}
-		#new_account_form p.required  sup {color:#990000;}
+		#new_account_form p.required  sup 
+		{
+			color: #e54046;
+			font-size: 1em;
+			font-family: Arial;
+		}
 		
 		#new_account_form p.radio label {
 			padding-right:10px;
@@ -50,21 +54,23 @@ form#new_account_form {}
 		#new_account_form p.text input,
 		#new_account_form p.password input,
 		#new_account_form p.select input {
-			padding:0 5px;
-			height:22px;
-			width:360px;/* 370 */
-			border:1px solid #ccc;
+			padding: 0 5px;
+			height: 30px;
+			width: 560px;
+			border: 2px solid #e5e5e5;
 			font-size: 12px;
-			color:#666
+			border-radius: 3px;
+			color: #666;
 		}
 		#new_account_form p.checkbox input {
-			margin-left:260px;
+			margin-left:230px;
 		}
 		#new_account_form p.select select {
-			margin-right:10px;
-			border:1px solid #ccc;
-			font-size: 12px;
-			color:#666
+			margin-right: 10px;
+			color: #666;
+			border: 2px solid #e5e5e5;
+			height: 30px;
+			border-radius: 3px;
 		}
 		#new_account_form p.textarea textarea {
 			height:80px;

@@ -168,7 +168,7 @@ form {
   margin: 0;
 }
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -583,6 +583,10 @@ body > header .modules > a.logo:hover
 #logo img {
   margin: 30px 0 0 0;
 }
+.breadcrumb
+{
+  display: none;
+}
 #center_column {
   display: block;
   float: none;
@@ -590,7 +594,175 @@ body > header .modules > a.logo:hover
   margin: 0 auto;
   overflow: hidden;
 }
-#center_column #logo {
+#order-opc #center_column
+{
+  width: 1024px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  padding: 60px 35px;
+  background: white;
+  border: 10px solid #e54046;
+  font-family: 'Titillium Web';
+  font-size: 1.4em;
+}
+#order-opc #center_column #cart_quantity_button a {
+  display: block;
+  text-decoration: none;
+  height: 10px;
+  line-height: 10px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+#order-opc #center_column input[type="button"] 
+{
+  background: #e54046;
+  border: 0;
+  padding: .7em;
+  border-radius: 3px;
+  color: white;
+  opacity: 1;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+#order-opc #center_column input[type="button"]:hover
+{
+  opacity: .7;
+}
+#order-opc #center_column #message 
+{
+  border: 2px solid #e5e5e5;
+  border-radius: 3px;
+}
+#order-opc #center_column h1
+{
+  font-family: 'Titillium Web';
+  font-size: 1.6em;
+  font-weight: bold;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+#order-opc #center_column h3
+{
+  font-family: 'Titillium Web'
+}
+#order-opc #center_column #cart_summary
+{
+  width: 100%;
+  text-align: left;
+}
+#order-opc #center_column h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Titillium Web';
+}
+#order-opc #center_column h2 > span 
+{
+  background: #e54046;
+  color: white;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 45px;
+  font-size: 1.4em;
+  margin-right: 10px;
+}
+#order-opc #center_column #cart_summary .price
+{
+  color: #e54046;
+  font-weight: normal;
+}
+#order-opc #center_column #cart_summary h5
+{
+  font-family: 'Titillium Web';
+}
+#order-opc #center_column #cart_summary #total_price_container 
+{
+  border: 1px solid #e54046;
+  margin: 0;
+  padding: 0;
+}
+#order-opc #center_column #cart_summary #total_price_container > p 
+{
+  margin: 0;
+  padding: 5px;
+  background: #e54046;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+#order-opc #center_column #cart_summary #total_price_container #total_price 
+{
+  display: block;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px 0;
+}
+#order-opc #center_column #cart_summary > tfoot > tr.cart_total_price:last-of-type 
+{
+  border-bottom: none;
+}
+#order-opc #center_column #cart_summary > thead {
+  background: #e54046;
+  color: white;
+}
+#order-opc #center_column #cart_summary > thead > tr > th {
+  font-size: 1.15em;
+}
+#order-opc #center_column #cart_summary > thead > tr > th:first-of-type
+{
+  padding: 1em;
+}
+#order-opc #center_column #cart_summary > tfoot {
+  border-top: 1px solid #e54046;
+}
+#order-opc #center_column #cart_summary > tfoot > tr td:first-of-type 
+{
+  padding: 0.5em 1em;
+}
+#order-opc #center_column #cart_summary > tfoot > tr
+{
+  border-bottom: 1px solid #dfdfdf;
+}
+#order-opc #center_column #login_form
+{
+  margin: 20px 0;
+}
+#order-opc #center_column #login_form > fieldset 
+{
+  background: #473738;
+  display: inline-block;
+  padding: 10px 20px;
+}
+#order-opc #center_column #login_form > fieldset > h3 
+{
+  color: white;
+  font-size: 1em;
+  font-family: 'Titillium Web';
+  font-style: italic;
+  margin: 0;
+}
+#order-opc #center_column #login_form > fieldset > p 
+{
+  margin: 0;
+}
+#order-opc #center_column #login_form > fieldset > p #openLoginFormBlock
+{
+  color: white;
+  text-decoration: none;
+  font-size: .9em;
+}
+#order-opc #center_column #login_form > fieldset > p #openLoginFormBlock:hover
+{
+  text-decoration: underline;
+}
+#center_column #logo 
+{
   width: auto;
   display: block;
   margin: 0 auto;
@@ -828,6 +1000,9 @@ body > header .modules > a.logo:hover
 #center_column #contentboxaudio button.add_to_cart:focus
 {
   outline: 0;
+  box-shadow: 0 0 10px rgba(221, 19, 116, 1);
+  border: 1px solid #FF008D;
+  opacity: .9;
 }
 #center_column .block {
   margin-bottom: 40px;

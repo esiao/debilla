@@ -7,7 +7,7 @@ $(function () {
 		e.preventDefault();
 
 		var quantity		= 1; // Quantité de produits à insérer dans le panier.
-		var idProduct		= 2; // Changer par l'identifiant du produit.
+		var idProduct		= 9; // Changer par l'identifiant du produit.
 		var idCombination	= 0;
 
 		$.ajax({
@@ -64,7 +64,7 @@ $(function () {
       	});
 
 	//smooth scroll
-	$('header a').click(function(e){
+	$('header a#contentboxaudio').click(function(e){
 		$('html, body').animate({
 		    scrollTop: $( $.attr(this, 'href') ).offset().top
 		}, 500);
